@@ -11,8 +11,19 @@ const Footer = () => {
         Vinícius Marcili
       </a>
       {' '}@ {new Date().getFullYear()}
+      <div>
+        E modificado por{' '}
+        <a
+          href="https://github.com/DerBrasilianer"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline"
+        >
+          Enzo Soddano
+        </a>
+      </div>
     </footer>
   )
 }
 
-export default Footer
+export default Footer;
