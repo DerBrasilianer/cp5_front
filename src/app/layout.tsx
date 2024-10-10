@@ -1,13 +1,13 @@
+import Footer from "@/components/footer/footer"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
-import Footer from "@/components/footer/footer"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "FIAP - Next.js",
-  description: "FIAP - Next.js",
+  title: "FIAP - CP5 - Front",
+  description: "FIAP - CP5 - Front",
 }
 
 export default function RootLayout({

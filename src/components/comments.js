@@ -1,3 +1,4 @@
+// components/Comments.js
 import { useEffect, useState } from "react";
 
 const Comments = ({ articleId }) => {
@@ -5,6 +6,7 @@ const Comments = ({ articleId }) => {
 
     useEffect(() => {
         const fetchComments = async () => {
+            // Simulando uma chamada à API para buscar comentários
             const response = await fetch(`/api/comments?articleId=${articleId}`);
             const data = await response.json();
             setComments(data);
