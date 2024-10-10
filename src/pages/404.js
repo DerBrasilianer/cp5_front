@@ -1,4 +1,3 @@
-// src/pages/404.tsx
 import Link from 'next/link';
 
 const Custom404 = () => {
