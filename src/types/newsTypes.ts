@@ -1,5 +1,4 @@
 // src/types/newsTypes.ts
-
 export interface Comment {
     name: string;
     text: string;
@@ -8,8 +7,8 @@ export interface Comment {
 export interface NewsArticle {
     id: number;
     title: string;
-    date: string; // Formato: YYYY-MM-DD
     content: string;
+    date: string; // A propriedade que estava faltando
     image: string;
     categories: string[];
     comments: Comment[];
