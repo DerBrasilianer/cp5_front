@@ -1,4 +1,3 @@
-// components/Comments.js
 import { useEffect, useState } from "react";
 
 const Comments = ({ articleId }) => {
